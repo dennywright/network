@@ -1,2 +1,5 @@
 [Service]
 ExecStart=/usr/bin/srvd
+
+[Install]
+WantedBy=multi-user.target
